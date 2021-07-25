@@ -1,0 +1,434 @@
+* {
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    width: 100%;
+    height: auto;
+
+    margin: 0;
+    padding: 0;
+
+    background-color: rgba(219, 196, 76, 1);
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+header {
+
+    width: 100%;
+    padding: 40px 4% 10px;
+    background-color: rgba(219, 196, 76, 1);
+
+    position: fixed;
+
+    display: flex;
+    align-items: center;
+
+}
+
+ a {
+
+    text-decoration: none;
+    color: fff;
+
+ }
+
+ ul {
+
+    list-style: none;
+    margin: 0;
+    display: flex;
+
+ }
+
+nav {
+
+  margin:20 150 0 846;
+  
+}
+
+ li {
+
+    margin: 20px 0 0 222px;
+    font-size: 15px;
+
+ }
+
+ li a{
+
+	display: inline-block;
+	position: relative;
+	color: #fff;
+ 	text-decoration: none;
+
+  
+
+  
+}
+
+li a:before{
+
+	content: "";
+	position: absolute;
+	 left: 0;
+	bottom: -4px;
+	width: 100%;
+	height: 1.5px;
+	background: #fff;
+	transform: scale(0, 1);
+	transform-origin: left;
+	transition: 0.4s;
+
+}
+
+li a:hover:before {
+
+	transform: scale(1);
+
+}
+
+
+.square01 {
+
+    width: 1200px;
+    height: 700px;
+
+    background: rgba(200, 95, 53, 1);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  
+}
+
+
+.square02 {
+
+    width: 630px;
+    height: 300px;
+
+    background-color: rgba(111, 170, 132, 1);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 515;
+    bottom: 353;
+    margin: auto;
+
+    overflow:hidden;
+
+}
+
+.square02 img {
+
+  object-fit: cover;
+  
+  width: 600px;
+  height: 270px;
+
+  position: absolute;
+  top: 16px;
+  left: 15px;
+  
+  transition: 0.7s all;
+
+  cursor: pointer;
+  transition-duration: 0.3s;
+
+}
+
+.square02 img:hover {
+
+  transform:scale(1.2,1.2);
+  transition:0.7s all;
+
+  opacity: 0.6;
+  transition-duration: 0.3s;
+
+}
+
+
+.square03 {
+
+    width: 350px;
+    height: 330px;
+
+    background: rgba(111, 170, 132, 1);
+
+    position: absolute;
+    top: 680;
+    left: 0;
+    right: 794;
+    bottom: 353;
+    margin: auto;
+
+    overflow:hidden;
+
+}
+
+.square03 img {
+
+  object-fit: cover;
+  
+  width: 320px;
+  height: 300px;
+
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  
+  transition: 0.7s all;
+
+  cursor: pointer;
+  transition-duration: 0.3s;
+
+}
+
+.square03 img:hover {
+
+  transform:scale(1.2,1.2);
+  transition:0.7s all;
+
+  opacity: 0.6;
+  transition-duration: 0.3s;
+
+}
+
+.square04 {
+
+    width: 255px;
+    height: 220px;
+
+    background: rgba(111, 170, 132, 1);
+
+    position: absolute;
+    top: 680;
+    left: 0;
+    right: 140;
+    bottom: 463;
+    margin: auto;
+
+    overflow:hidden;
+
+}
+
+.square04 img {
+
+  object-fit: cover;
+  
+  width: 225px;
+  height: 190px;
+
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  
+  transition: 0.7s all;
+
+  cursor: pointer;
+  transition-duration: 0.3s;
+
+}
+
+.square04 img:hover {
+
+  transform:scale(1.2,1.2);
+  transition:0.7s all;
+
+  opacity: 0.6;
+  transition-duration: 0.3s;
+
+}
+
+.square05 {
+
+    object-fit: cover;
+    
+    width: 500px;
+    height: 90px;
+
+    text-align: center;
+
+    background: rgba(111, 170, 132, 1);
+
+    position: absolute;
+    top: 1030;
+    left: 107;
+    right: 0;
+    bottom: 463;
+    margin: auto;
+
+    overflow:hidden;
+
+}
+
+.square05 img{
+
+    width: 470px;
+    height: 70px;
+
+    position: absolute;
+    top: 3;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+
+.square05 img:hover {
+
+  transform:scale(1.2,1.2);
+  transition:0.7s all;
+
+  opacity: 0.6;
+  transition-duration: 0.3s;
+
+}
+
+.square06 {
+
+    width: 485px;
+    height: 400px;
+
+    background: rgba(111, 170, 132, 1);
+
+    position: absolute;
+    top: 210;
+    left: 655;
+    right: 0;
+    bottom: 463;
+    margin: auto;
+
+    overflow:hidden;
+
+}
+
+.square06 img {
+
+  object-fit: cover;
+  
+  width: 455px;
+  height: 370px;
+
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  
+  transition: 0.7s all;
+
+  cursor: pointer;
+  transition-duration: 0.3s;
+
+}
+
+.square06 img:hover {
+
+  transform:scale(1.2,1.2);
+  transition:0.7s all;
+
+  opacity: 0.6;
+  transition-duration: 0.3s;
+
+}
+
+.square07 {
+
+    width: 235px;
+    height: 235px;
+
+    background: rgba(111, 170, 132, 1);
+
+    position: absolute;
+    top: 886;
+    left: 905;
+    right: 0;
+    bottom: 463;
+    margin: auto;
+
+    overflow:hidden;
+
+}
+
+.square07 img {
+
+  object-fit: cover;
+  
+  width: 205px;
+  height: 205px;
+
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  
+  transition: 0.7s all;
+
+  cursor: pointer;
+  transition-duration: 0.3s;
+
+}
+
+.square07 img:hover {
+
+  transform:scale(1.2,1.2);
+  transition:0.7s all;
+
+  opacity: 0.6;
+  transition-duration: 0.3s;
+
+}
+
+.square08 {
+
+  width: 225px;
+  height: 135px;
+
+  background: rgba(111, 170, 132, 1);
+
+  position: absolute;
+  top: 700;
+  left: 394;
+  right: 0;
+  bottom: 398;
+  margin: auto;
+
+  overflow:hidden;
+
+}
+
+.square08 img {
+
+object-fit: cover;
+
+width: 200px;
+height: 118px;
+
+position: absolute;
+top: 9px;
+left: 14.67px;
+right: 5px;
+
+transition: 0.7s all;
+
+cursor: pointer;
+transition-duration: 0.3s;
+
+}
+
+.square08 img:hover {
+
+transform:scale(1.2,1.2);
+transition:0.7s all;
+
+opacity: 0.6;
+transition-duration: 0.3s;
+
+}
