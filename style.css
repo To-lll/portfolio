@@ -248,9 +248,7 @@ li a:hover:before {
 
 }
 
-.square05 {
-
-    object-fit: cover;
+.square05 { 
     
     width: 500px;
     height: 90px;
@@ -270,17 +268,21 @@ li a:hover:before {
 
 }
 
-.square05 img{
+.square05 img {
 
-    width: 470px;
-    height: 70px;
+  object-fit: cover;
+  
+  width: 460px;
+  height: 70px;
 
-    position: absolute;
-    top: 3;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  
+  transition: 0.7s all;
+
+  cursor: pointer;
+  transition-duration: 0.3s;
 
 }
 
@@ -293,6 +295,8 @@ li a:hover:before {
   transition-duration: 0.3s;
 
 }
+
+
 
 .square06 {
 
